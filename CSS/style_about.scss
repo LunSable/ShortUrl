@@ -1,0 +1,25 @@
+
+$body-font : 'fira_sansregular', Helvetica, serif;
+
+$blue:#33c1e3;
+$gray:#727272;
+$red:#e85f61;
+$white:#f6f6f6;
+$darkgray:#414141;
+$whitegray:#dedede;
+
+/*Миксы*/
+@import "other/Color.scss";
+@import "other/mixxed.scss";
+
+/*Шрифт*/
+@import "other/fonts.scss";
+
+/* Настройки лейаута */
+@import "other/normalize.scss";
+@import "other/base.scss";
+@import "adaptive/media.scss";
+
+/* Страницы */
+@import "pages/hello.scss";
+

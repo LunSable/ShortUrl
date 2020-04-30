@@ -1,0 +1,108 @@
+$blue:#33c1e3;
+$gray:#727272;
+$red:#e85f61;
+$white:#f6f6f6;
+$darkgray:#414141;
+$whitegray:#dedede;
+
+html {
+	font-size: 16px;
+
+	@include desktop {
+		font-size: 16px;
+	}
+
+	@include tablets {
+		font-size: 14px;
+	}
+
+	@include phones {
+		font-size: 13px;
+	}
+}
+
+  %clearfix{
+    &:after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+  }
+
+  html, body {
+      width: 100%;
+      height: 100%;
+    }
+  
+  body {
+    font-family: 'fira_sansregular', Helvetica, serif;;
+    font-weight: 300;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+    background-image:url(/IMAGE/congruent_outline.png);
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .wrapper:after {
+    content: "";
+    height: 50px;
+    display: block;
+    @include phones{
+      content: "";
+      display: block;
+      height: 115px;
+    }
+
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 960px;
+    @extend %clearfix;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  b {
+    font-weight: bold;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    margin: 0;
+  }
+
+  .footer {
+    background: #ccc;
+    height: 50px;
+    width: 100%; 
+    margin-top: -50px;
+    position: relative;
+    @include phones{
+      height: 115px;
+      margin-top: -115px;
+    }
+  }
+
+.main_content{
+  margin-bottom: 50px;
+}

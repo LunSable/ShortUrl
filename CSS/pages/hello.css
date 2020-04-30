@@ -1,0 +1,160 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\0000329}}
+.intro-container {
+  min-width: 21.875rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\0000340}}
+.intro_empty {
+  height: 70px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\0000344}}
+.intro_block {
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\0000352}}
+.intro_textblock {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\0000360}}
+.intro_textname {
+  margin-top: 0.625rem;
+  color: #414141;
+  font-size: 1.3125rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\0000365}}
+.intro_textname p {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\0000373}}
+.intro_button_block {
+  background-color: #292929;
+  margin-top: -0.625rem;
+  text-align: right;
+  position: relative;
+  padding: 1.25rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\0000381}}
+.intro_save {
+  min-width: 23.75rem;
+  min-height: 23.75rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-radius: 10px;
+  color: white;
+  background-color: #292929;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\0000395}}
+.intro_cut {
+  display: block;
+  padding: 0.3125rem 0.3125rem;
+  color: white;
+  background-color: #292929;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\00003105}}
+.intro_button {
+  text-align: center;
+  display: inline-block;
+  border: 2px solid #f6f6f6;
+  color: #414141;
+  border-radius: 50px;
+  padding: 0.625rem 0.9375rem;
+  font-size: 0.875rem;
+  font-family: 'fira_sansregular';
+  font-family: 'fira_sansbold';
+  text-decoration: none;
+  width: 6.875rem;
+  max-height: 2.5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\00003118}}
+.intro_button:hover {
+  color: white;
+  background: #414141;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\00003123}}
+.intro_button_two {
+  text-align: center;
+  display: inline-block;
+  border: 2px solid #f6f6f6;
+  color: #414141;
+  border-radius: 50px;
+  padding: 0.625rem 0.9375rem;
+  font-size: 0.875rem;
+  font-family: 'fira_sansregular';
+  font-family: 'fira_sansbold';
+  text-decoration: none;
+  width: 6.875rem;
+  max-height: 2.5rem;
+  margin-top: 50px;
+  background-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\00003138}}
+.intro_button_two:hover {
+  color: white;
+  background: #414141;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\00003144}}
+.intro_text {
+  display: inline-block;
+  float: left;
+  margin-top: 5px;
+  border-radius: 50px;
+  padding: 0.3125rem 0.3125rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\00003153}}
+.intro_textmain {
+  font-size: 1.875rem;
+  margin-top: 0.625rem;
+  color: #414141;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\00003161}}
+.intro_textsave {
+  margin-top: 0.625rem;
+  color: #f6f6f6;
+  font-size: 1.3125rem;
+  margin-top: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\00003166}}
+.intro_textsave p {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/pages\/hello\.scss}line{font-family:\00003175}}
+.show {
+  display: block;
+}

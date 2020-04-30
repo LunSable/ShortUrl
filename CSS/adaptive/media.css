@@ -1,0 +1,43 @@
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/adaptive\/media\.scss}line{font-family:\000032}}
+  html {
+    font-size: 16px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/adaptive\/media\.scss}line{font-family:\000036}}
+  .container {
+    width: 970px;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/adaptive\/media\.scss}line{font-family:\0000314}}
+  html {
+    font-size: 15px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/adaptive\/media\.scss}line{font-family:\0000318}}
+  .container {
+    width: 730px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/adaptive\/media\.scss}line{font-family:\0000322}}
+  .footer {
+    min-width: 750px;
+  }
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/adaptive\/media\.scss}line{font-family:\0000330}}
+  html {
+    font-size: 14px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/adaptive\/media\.scss}line{font-family:\0000334}}
+  .container {
+    width: 300px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServ\/OpenServer\/domains\/localhost\/CSS\/adaptive\/media\.scss}line{font-family:\0000338}}
+  .footer {
+    min-width: 320px;
+  }
+}
